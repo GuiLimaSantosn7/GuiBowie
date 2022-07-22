@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Long;
+    src: url(Long_Shot.ttf);
+}
+
+@font-face {
+    font-family: Vogue;
+    src: url(Vogue.ttf);
+}
+
+:root {
+    --font1: Long;
+    --font2: Vogue;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: var(--font1);
+    text-align: center;
+}
+
+p {
+    font-family: var(--font2);
+    color: white;
+    text-align: center;
+}
+
+li {
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
